@@ -7,7 +7,7 @@ const ProfilePhoto = ({images}) => {
                 {images.map((image) =>(
                     <img
                     src={URL.createObjectURL(image)}
-                    style={{ width: '50%' }}
+                    style={{ width: '30%' }}
                     key={image.lastModified}
                     />
                 ))}
